@@ -49,11 +49,3 @@ if st.button("Load Qualifying Session Data"):
         # Display session data
         st.subheader(f"Qualifying Session Data for {grandprix} ({year})")
         st.write(saved_session_results)
-
-        st.write("Shape:", saved_session_results.shape)
-
-        st.write("Columns:", saved_session_results.columns.tolist())
-        st.write("Dtypes:", saved_session_results.dtypes)
-
-        st.write("Head of the DataFrame:")
-        st.write(saved_session_results.head())
